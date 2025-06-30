@@ -1,0 +1,30 @@
+/* Fade In Animation */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Slide Up Animation */
+@keyframes slideUp {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Apply animations to sections */
+.hero,
+.projects,
+.skills,
+.contact {
+    animation: fadeIn 1s ease-out;
+}
+
+.project-card,
+.skill-item {
+    animation: slideUp 0.5s ease-out;
+}

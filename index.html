@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Full Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animation.css">
+    
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+          
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <script src="main.js"></script>
+    <script src="scroll.js"></script>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-logo">Portfolio</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="profile-image">
+            <img src="image/IMG20240921183740_1.jpg" alt="Profile Picture">
+        </div>
+        <div class="hero-content">
+            <h1> <span class="highlight">S.N.YUVASHREE</span></h1>
+            <i style="color:rgb(165, 137, 137); font-size: 30px;">JAVA FULLSTACK DEVELOPER</i><br>
+            <p class="paragraph">
+                I am a motivated and passionate Java Fullstack Developer with good knowledge of both frontend and backend development. I have hands-on experience in working with Java, Spring Boot, HTML, CSS, JavaScript, and databases like MySQL through my academic and personal projects.
+                
+               </p><br>
+           <a target="_blank" href="image/resume.pdf" >
+           <button class="resume-btn">View Resume</button>
+            </a>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <img src="image/Blue Green Modern Website Project Proposal Document A4.jpg" alt="Project 1">
+                <h3>Project 1</h3>
+                <h3>SASS WEBSITE</h3>
+                <p>Bringing ideas to life through clean code and creative design! I built this website using HTML, CSS, and Sass, focusing on simplicity, responsiveness, and good design practices.
+
+                </p>
+            </div>
+            <div class="project-card">
+                <img src="image/Brown and White Simple Portfolio Cover Page A4.png" alt="Project 2">
+                <h3>Project 2</h3>
+                <h3>PORTFOLIO</h3>
+                <p>I am a passionate web developer with skills in HTML, CSS, and JavaScript. I have built this website to showcase my projects and skills. I enjoy designing and developing responsive, user-friendly websites. I am eager to learn new technologies and grow as a developer.</p>
+            </div>
+            <div class="project-card">
+                <img src="image/Blue and Gray Illustrative Digital Book Library Logo.png" alt="Project 3">
+                <h3>Project 3</h3>
+                <h3>LIBRARY APP</h3>
+                <p>I created a simple Library App using HTML, CSS, and JavaScript. This app allows users to add books, display them in a list, and remove books easily with the Add and Remove buttons. It helps in managing a small collection of books directly in the browser without any backend.</p>
+            </div>
+            <div class="project-card">
+                <img src="image/Green Modern Simple Farming Presentation.jpg" alt="Project 4">
+                <h3>Project 4</h3>
+                <h3>AGRIFY WEB APPLICATION</h3>
+                <p>A Responsive Agriculture Website built with HTML5, CSS3, JavaScript, this project integrates GEN AI Chatbot.
+                    It have features like Crop yield prediction, weather prediction, Agri News, Plant disease identification, Profit calculation all via unified dashboard.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3 style="text-decoration: underline;">Frontend</h3>
+                <div class="skill-grid">
+                    <div class="skill-item">
+                        
+          
+                        <img style="width:80px;" src="image/download.png" alt="HTML">
+                        <span>HTML</span>
+                    </div>
+                    <div class="skill-item">
+                        <img style="width:80px;" src="image/css.webp" alt="CSS">
+                        <span>CSS</span>
+                    </div>
+                    <div class="skill-item">
+                        <img style="width:80px;"  src="image/Unofficial_JavaScript_logo_2.svg.png" alt="JavaScript">
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="skill-item">
+                        <img style="width:300px;" src="image/react-logo@3x.svg" alt="React">
+                        <span>React</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3 style="text-decoration: underline;">Backend</h3>
+                <div class="skill-grid">
+                    <div class="skill-item">
+                        <img src="image/java.svg" alt="Java">
+                        <span>Java</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="image/springboot-inner.svg" alt="Spring">
+                        <span>Spring</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="image/66NFe2g3_400x400.jpg" alt="Hibernate">
+                        <span>Hibernate</span>
+                    </div>
+                    <div class="skill-item">
+                        <img style="width: 100px;" src="image/MySQL-Logo.jpg" alt="MySQL">
+                        <span>MySQL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <div class="form-group">
+                <input type="text" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <input type="tel" id="phone" placeholder="Your Mobile Number" required>
+            </div>
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="contact-info">
+            <p><i class="fas fa-envelope"></i> yuvashreey281@gmail.com</p>
+            <p><i class="fas fa-phone"></i> 91+ 6369045524</p>
+        </div>
+        <div class="social-links">
+            <a href="https://github.com/Yuva028" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/yuvashree2804/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+    <script src="scripts/scroll.js"></script>
+</body>
+</html>
