@@ -12,6 +12,7 @@ AI-powered chatbot assistance
 Informative content about agriculture
 
 🔧 Tech Stack
+
 HTML5
 
 CSS3
