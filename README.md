@@ -1,17 +1,17 @@
-A fully responsive Agriculture Website built with HTML5, CSS3, and JavaScript. This project aims to provide useful information for farmers and agricultural enthusiasts. It also integrates a Generative AI Chatbot to assist users with queries related to farming, crops, and agriculture.
+🌐 Personal Portfolio Website
+This is my personal portfolio website built using HTML, CSS, and JavaScript. It showcases my skills, projects, and achievements as a developer. The website is fully responsive.
 
 🚀 Features
-Responsive design for all devices
 
-Clean and modern UI
+Fully responsive design
 
-Interactive sections with JavaScript
+Clean and modern user interface
 
-AI-powered chatbot assistance
+Projects showcase with descriptions
 
-Informative content about agriculture
+About me and contact sections
 
-🔧 Tech Stack
+🛠️ Technologies Used
 
 HTML5
 
@@ -19,4 +19,14 @@ CSS3
 
 JavaScript
 
-Generative AI Integration
+📄 How to Run Locally
+
+Clone this repository
+
+Navigate to the project folder
+
+Open index.html with your browser
+
+🔗 Live Website
+
+[Add your website link here]
